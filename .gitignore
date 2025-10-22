@@ -1,0 +1,6 @@
+
+.terragrunt*
+.venv
+volume
+docker-compose*
+requirements.txt

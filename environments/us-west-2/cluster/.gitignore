@@ -1,0 +1,8 @@
+*
+!.gitignore
+!terragrunt.stack.hcl
+.terraform/
+.terragrunt-stack
+*.tfstate
+*.tfstate.backup
+crash.log
