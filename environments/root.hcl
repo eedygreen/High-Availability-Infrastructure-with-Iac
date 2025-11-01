@@ -94,6 +94,8 @@ provider "aws" {
   endpoints {
     sts = "${local.localstack_endpoint}"
     s3 = "${local.localstack_endpoint}" # Localstack S3 service
+    ec2 = "${local.localstack_endpoint}"
+    iam = "${local.localstack_endpoint}"
   }
 
 }

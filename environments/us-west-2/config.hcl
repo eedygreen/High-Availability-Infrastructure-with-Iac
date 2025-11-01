@@ -15,4 +15,5 @@ locals {
     ingress_source = "${local.base_repo}//units/ingress?ref=${local.versions.ingress}"
     s3_source = "${local.base_repo}//units/s3?ref=${local.versions.s3}"
     app_source = "${local.base_repo}//units/app?ref=${local.versions.app}"
+    vpc_source = "${local.base_repo}//units/vpc?ref=${local.versions.vpc}"
 }
