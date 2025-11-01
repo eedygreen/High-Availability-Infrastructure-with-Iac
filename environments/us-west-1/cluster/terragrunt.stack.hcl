@@ -11,7 +11,7 @@ unit "dev" {
   path = "dev"
   values = {
     environment = "dev"
-    listen_address = "10.0.0.0/16"
+    listen_address = "0.0.0.0"
     cluster_name = "${local.cluster_name}-dev"
     cluster_version = local.cluster_version
     cluster_context = local.cluster_context
