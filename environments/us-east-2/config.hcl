@@ -3,7 +3,7 @@ locals {
     base_repo = "git::https://github.com/eedygreen/Infrastruture-As-Code-modules.git"
 
     versions = {
-        cluster = "v0.1.0-patch.2"
+        cluster = "v0.1.1-beta.1"
         s3 = "v0.1.1-beta.1"
         ingress = "v0.1.1-beta"
         app = "v0.1.0-patch.2"
